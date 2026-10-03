@@ -1,0 +1,16 @@
+# Normalização automática de fins de linha
+* text=auto
+
+# Código-fonte e documentação sempre com LF
+*.py    text eol=lf
+*.s     text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.toml  text eol=lf
+
+# Ficheiros binários
+*.pyc   binary
+*.pyo   binary
+*.png   binary
+*.jpg   binary
+*.pdf   binary
